@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 3 changes ContrainsLayout to Linear Layout in parentlayout -->
+<!-- TODO 4 add Background in parentlayout pick colorPrimary-->
+<!-- TODO 6 add padding, orientasi, gravity in parentLayout -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- TODO 5 delete Textview in child -->
+
+    <!-- TODO 7 add new Linear layout in child layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- TODO 8 add add 3button in LinearLayout in child -->
+
+    <!-- TODO 9 add new Linear layout again in child layout -->
+
+    <!-- TODO 10 add add 3button again in LinearLayout in child -->
+
+    <!-- TODO 11 add new Linear layout again in child layout -->
+
+    <!-- TODO 12 add add 3button again in LinearLayout in child -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
